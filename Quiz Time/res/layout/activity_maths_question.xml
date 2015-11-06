@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathsQuestion" >
+
+    <TextView
+        android:id="@+id/msummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="98dp"
+        android:text="@string/msummary" />
+
+    <TextView
+        android:id="@+id/mhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/mhead" />
+
+    <EditText
+        android:id="@+id/manswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mqbutton"
+        android:layout_alignLeft="@+id/manswer"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="numberPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manswer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/mquestion" />
+
+    <TextView
+        android:id="@+id/mquestiont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mquestion"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:text="@string/mquestiont" />
+
+    <Button
+        android:id="@+id/mqbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/msummary"
+        android:layout_alignRight="@+id/manswer"
+        android:layout_marginBottom="34dp"
+        android:layout_marginRight="54dp"
+        android:text="@string/qbutton" />
+
+</RelativeLayout>

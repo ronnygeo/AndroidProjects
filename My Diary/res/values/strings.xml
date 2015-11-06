@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Diary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_activity_week">Weekly</string>
+    <string name="title_activity_main_activity_monthly">Monthly</string>
+    <string name="title_activity_main_activity_daily">Daily</string>
+    <string name="title_activity_add_new">Add New Entry</string>
+    <string name="addnewap">Add New</string>
+    <string name="priority1">Highest</string>
+    <string name="priority2">Normal</string>
+    <string name="priority3">Lowest</string>
+    <string name="alarm1">Before 15 mins</string>
+    <string name="alarm2">Before 30 mins</string>
+    <string name="alarm3">Before 1 hour</string>
+    <string name="alarm4">Before 2 hours</string>
+    <string name="alarm5">1 day before</string>
+    <string name="repeat1">Every day</string>
+    <string name="repeat2">Every Week</string>
+    <string name="repeat3">Every Month</string>
+    <string name="repeat4">Every Year</string>
+    <string name="newWelcome">Add a new Appointment</string>
+    <string name="adesc">What is the Appointment?</string>
+    <string name="selectstime">Select Start Time</string>
+    <string name="selectetime">Select End Time</string>
+    <string name="selectpri">Select Priority</string>
+    <string name="setalarm">Do you want to set an Alarm?</string>
+    <string name="alarmtime">When do you want to be reminded of this Appointment?</string>
+    <string name="rhead">Do you want to repeat this Appointment?</string>
+    <string name="repeattime">How often do you want to repeat this?</string>
+    <string name="invitep">Invite People</string>
+    <string name="invitebt">Add</string>
+    <string name="btsave">Save!</string>
+    <string name="togglealarm">Toggle Alarm</string>
+    <string name="togglerepeat">Toggle Repeat</string>
+    <string name="title_activity_add_new_ap">Add New Appointment</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_main_activity_month">MainActivityMonth</string>
+    <string name="title_activity_add_new_app">AddNewApp</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="welcome">Welcome to Quiz!</string>
+    <string name="intro">Please select the type of questions that you want to answer</string>
+    <string name="score">Your score will appear here..</string>
+    <string name="hbutton">History</string>
+    <string name="mbutton">Maths</string>
+    <string name="title_activity_history">History Question</string>
+
+</resources>
